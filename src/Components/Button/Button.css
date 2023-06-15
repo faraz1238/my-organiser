@@ -1,0 +1,25 @@
+.IncreaseBtn{
+    background-color: lightgreen;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    font-size: xx-large;
+}
+.DecreaseBtn{
+    background-color: tomato;
+    width: 5rem;
+    height: 5rem;
+    font-size: xx-large;
+    font-weight: bold;
+    border-radius: 50%;
+}
+.qouteBtn{
+    background-color: black;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    width: 2rem;
+    height: 2rem;
+}

@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+ align-items: center;
+
+ position: fixed;
+ top: 0rem;
+ width: 90%;
+ justify-content: space-between;
+ border-bottom: 1px solid darkgray;
+
+
+}
+.leftSection{
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.rightSection{
+    display: flex;
+    gap: 20px;
+
+}
+
+.rightSection Button{
+    background-color: black;
+}
+.rightSection Button:hover{
+background-color: rgb(78, 78, 78);
+}

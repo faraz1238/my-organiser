@@ -1,0 +1,21 @@
+.mainForm form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.mainForm{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 30%;
+    min-height: 60vh;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px;
+    background-color: whitesmoke;
+    position: relative;
+    top: -3rem;
+}

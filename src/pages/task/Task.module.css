@@ -1,0 +1,60 @@
+.displayDiv{
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    border: 1px solid;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 17rem;
+   
+    
+}
+.wrapper{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 30%;
+    min-height: 60vh;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px;
+    background-color: whitesmoke;
+    position: relative;
+    top: -3rem;
+}
+.taskContainer{
+    overflow: scroll;
+    max-height: 40vh;
+ 
+}
+.btbDiv{
+    cursor: pointer;
+color: red;
+}
+
+#input{
+    max-height: 1rem;
+}
+.mainForm{
+    display: flex;
+    flex-direction: column;
+  
+}
+.inputForm{
+    display: flex;
+    flex-direction: column;
+}
+.taskContainer::-webkit-scrollbar {
+    display: none;
+    
+}
+.mainForm Button{
+    background-color: black;
+}
+.mainForm Button:hover{
+    background-color: rgb(78, 78, 78);
+}
